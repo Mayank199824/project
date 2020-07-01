@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>TechTable</title>
+    <link href="/your-path-to-fontawesome/css/all.css" rel="stylesheet">
+	  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+</head>
+
+<style>
+  .carousel-inner img {
+    width: 100%;
+    height: 350;
+
+  }
+    #srch{
+    opacity: 0.7;
+    width: 600px;
+  }
+  #srch-button{
+    opacity: 0.8;
+  }
+</style>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    		<a class="navbar-brand" href="#">
+      		<img src="images/logo.png" width="100" height="35" alt="" loading="lazy">
+  		  </a>
+  		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="	navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+  		   <span class="navbar-toggler-icon"></span>
+  		  </button>
+  	
+    	<div class="collapse navbar-collapse" id="navbarSupportedContent">
+      	<ul class="navbar-nav ml-auto">
+        		<li class="nav-item active">
+          	 <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        		</li> 
+        		<li class="nav-item">
+          	 <a class="nav-link" href="#">Link</a>
+        		</li>
+        		<li class="nav-item dropdown">
+          	 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            	Startup Connect
+          	 </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Request Services</a>
+                <a class="dropdown-item" href="#">Provide Services</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something </a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="#" >Contact Us</a>
+            </li>
+        </ul>
+      </div>
+    </nav>
+    <div id="demo" class="carousel slide" data-ride="carousel">
+
+<!-- carousel -->
+  <div class="carousel-inner">
+    <div class="carousel-caption ">
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+          <div class="srch-setting">
+            <form class="form-inline" >
+              <input class="form-control mr-sm-2" id="srch" type="search" placeholder="Search" aria-label="Search"  >
+              <button class="btn btn-success" id="srch-button" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+  </div>
+    <div class="carousel-item active cl1">
+      <img src="images/building1.jpg" width="100%" height="350">
+    </div>
+    <div class="carousel-item cl2">
+     <img src="images/building2.jpg" width="100%" height="350">
+    </div>
+    <div class="carousel-item cl3">
+      <img src="images/building3.jpg" width="100%" height="350">
+    </div>
+  </div>
+</div>
+<br>
+  <div class="container">
+    <h3 style="text-align: center;">Our Services</h3>
+    <br><br>
+
+      <div class="row">
+        <div class="col-lg-3 ">
+            <img src="images/globe.png" height="200px" width="200px">
+        </div>
+        <div class="col-lg-9 ">
+            <h2>Startup Connect </h2>
+            <p>It is a platform to connect Engineering students and start-ups.
+              Get connected to best start-ups around India through this platform.
+              <span style="font-weight: bold;">internship</span>.
+              As students get the hands-on experience and Industries get people to work in innovative ways.
+            </p>
+            <a class="btn btn-primary" href="#" role="button">Know More</a>
+        </div>
+      </div>
+      <br><br>
+
+      <div class="row">
+        <div class="col-lg-3 ">
+            <img src="images/workshop.png" height="200px" width="200px">
+        </div>
+        <div class="col-lg-9 ">
+            <h2>Trainings and Workshops</h2>
+            <p>Many engineers remain jobless because they do not have the required skills what company is looking for,
+              Get trained with the experts in their domains on the latest technology and requirements.
+               We provide hands on experience by offering projects in the relevant fields. Be competitive and learning by joining this module.
+            </p>
+            <a class="btn btn-primary" href="#" role="button">Know More</a>
+        </div>
+      </div>
+      <br><br>
+
+      <div class="row">
+        <div class="col-lg-3 ">
+            <img src="images/budget.png" height="200px" width="200px">
+        </div>
+        <div class="col-lg-9 ">
+            <h2>Startup support</h2>
+            <p>Having a good start is always an advantage for any one, This one is for the start-ups to provide them technical support in the beginning to accelerate their journey.
+              <br>•	Interactive website <br>
+              •	Dynamic app design <br>
+              •	Digital Marketing <br>
+              •	Social Media advertising <br>
+              •	Graphic design <br>
+            </p>
+            <a class="btn btn-primary" href="#" role="button">Know More</a>
+        </div>
+      </div>
+      <br><br>
+      
+      <section id="logos">
+        <img class="logo" src="images/app-development.png" alt="App Development" width="200px">
+        <img class="logo" src="images/web-development.png" alt="Web Development" width="200px">
+        <img class="logo" src="images/digital-marketing.png" alt="Digital Marketing" width="200px">
+        <img class="logo" src="images/social-network.png" alt="Social Networking" width="200px">
+    	</section>
+  </div>
+</body>
+ <!-- Jquery -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<!-- PopperJs -->
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<!-- Bootstrap JS -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</html>
