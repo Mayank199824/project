@@ -14,6 +14,28 @@
 </head>
 
 <style>
+  h1, h2, h3, h4, h5, h6 {
+    
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 10px;
+    font-weight: 100;   
+}
+.backgroundtx{
+    background-image: url('images/bg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.nav-link{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.nav-link:hover {
+    border-bottom: 1.5px solid crimson;
+}
+.navbar-inner{
+    background: transparent;
+}
     #srch{
     opacity: 0.7;
     width: 600px;
@@ -73,28 +95,42 @@
 
 </style>
 <body>
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
-    		<a class="navbar-brand" href="#" style="margin-left: 40px;">
-      		<img src="images/logo.png" width="150" height="50" alt="">
-  		  </a>
-  		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="	navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-  		   <span class="navbar-toggler-icon"></span>
-  		  </button>
-  	
-    	<div class="collapse navbar-collapse" id="navbarSupportedContent">
-      	<ul class="navbar-nav ml-auto">
-        		<li class="nav-item active">
-          	 <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-        		</li> 
-        		<li class="nav-item">
-          	 <a class="nav-link" href="#Startup_Connect">Startup Connect</a>
-        		</li>
-            <li class="nav-item">
-             <a class="nav-link" href="#Mentorship_Guidance">Mentorship & Guidance</a>
-            </li>
-            <li class="nav-item">
-             <a class="nav-link" href="#Startup_Support">Startup Support</a>
-            </li>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top backgroundtx">
+      <a class="navbar-brand" href="#">
+        <img src="images/logo.png" width="50px" alt="logo"><strong>TechTable</strong>
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-center navbar-inner" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">HOME <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              STARTUP CONNECT
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="#">Apply For Internship</a>
+              <a class="dropdown-item" href="#">Post an Internship</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">WORKSHOPS & TRAININGS</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              STARTUP SUPPORT
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="#">Request Services</a>
+              <a class="dropdown-item" href="#">Provide Services</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">CONTACT US</a>
+          </li>
         </ul>
       </div>
     </nav>
